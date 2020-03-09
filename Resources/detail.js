@@ -136,8 +136,6 @@ function unbindDetailClickEvent() {
     $(".contentImage").unbind('click');
     $("#addFriend").unbind('click');
     $("#topic").unbind('click');
-    $("#tag").unbind('click');
-    $("#tagMore").unbind('click');
     
     $(".videoPlay").unbind('click');
     $("#videoadv-mask").unbind('click');

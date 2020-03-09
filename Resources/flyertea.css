@@ -1070,31 +1070,6 @@ img.videoImage {
   display: inline-block;
 }
 
-.comment-detail .comment-detail-main .tags {
-  margin: 0 1.125rem 2rem 1.125rem;
-  display: inline-block;
-  color: #959FA9;
-}
-
-.comment-detail .comment-detail-main .tags .tag {
-  font-size: 0.75rem;
-  border-radius: 0.625rem;
-  margin-left: 0.625rem;
-  padding: 0.25rem 0.5rem;
-  color: #051039;
-  background-color: #EDEDED;
-}
-
-.comment-detail .comment-detail-main .tags .tag_more {
-  font-size: 0.75rem;
-  border-radius: 0.625rem;
-  margin-left: 0.625rem;
-  padding: 0.25rem 0.5rem;
-  color: #051039;
-  background-color: #EDEDED;
-}
-
-
 /*   tag 广告  */
 
 .credit {

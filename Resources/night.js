@@ -17,12 +17,6 @@ function tabNight() {
     //帖子正文
     $('.comment-content-special').addClass('content-font');
 
-    //tag
-    $('.comment-detail .comment-detail-main .tags .tag').addClass('body-bgc');
-    $('.comment-detail .comment-detail-main .tags .tag').addClass('content-font');
-    $('.comment-detail .comment-detail-main .tags .tag_more').addClass('body-bgc');
-    $('.comment-detail .comment-detail-main .tags .tag_more').addClass('content-font');
-
     //评论
     $('.comment-reply').removeClass('content-sun');
     $('.comment-reply').addClass('content-bgc');
@@ -136,17 +130,10 @@ function tabLight() {
     //帖子正文
     $('.comment-content-special').removeClass('content-font');
 
-    //tag
-    $('.comment-detail .comment-detail-main .tags .tag').removeClass('body-bgc');
-    $('.comment-detail .comment-detail-main .tags .tag').removeClass('content-font');
-    $('.comment-detail .comment-detail-main .tags .tag_more').removeClass('body-bgc');
-    $('.comment-detail .comment-detail-main .tags .tag_more').removeClass('content-font');
 
     //评论
     $('.comment-reply').removeClass('content-bgc');
     $('.comment-reply').addClass('content-sun');
-
-
 
 
     $('.comment-reply .comment-item .comment-content .reply-message').not('.btn_flower').removeClass('content-font');
